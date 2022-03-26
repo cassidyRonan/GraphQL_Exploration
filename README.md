@@ -45,7 +45,7 @@ An alternative to this is GraphQL, in GraphQL we use a query that looks very lik
 }
 ```
 
-### Benefits of GraphQL:
+#### **Benefits of GraphQL:**
 - Defines shape of desired data and calls it at once rather than making multiple REST calls
 - Backward compatible
 - Version-free
@@ -54,7 +54,7 @@ An alternative to this is GraphQL, in GraphQL we use a query that looks very lik
 
 ---
 
-### Commenting Your Queries:
+#### **Commenting Your Queries:**
  We can add comments to our queires using the '#' character as shown below
  ```
  {
@@ -67,7 +67,7 @@ An alternative to this is GraphQL, in GraphQL we use a query that looks very lik
 
  ---
 
-### Passing Arguments:
+#### **Passing Arguments:**
 For this next part, we'll be utilising the [Github GraphQL API Explorer](https://docs.github.com/en/graphql/overview/explorer).
 
 We can also pass arguments to properties that support argument passing such as repository owner on the Github GraphQL API Explorer. Here we are getting the id, url and resource path of facebook's github profile.
@@ -84,7 +84,7 @@ Note: Double quotation marks are required for paramters, single quotation marks 
 }
  ```
 
- #### Response:
+**Response:**
  ```
  {
   "data": {
@@ -99,7 +99,7 @@ Note: Double quotation marks are required for paramters, single quotation marks 
 
  ---
 
- ### Required Arguments:
+ #### **Required Arguments:**
 Some queries can have required arguments such as the following query where owner is required for the query to be executed.
 
 ```
@@ -112,7 +112,7 @@ Some queries can have required arguments such as the following query where owner
 }
 ```
 
- #### Response:
+**Response:**
  ```
  {
   "data": {
@@ -124,3 +124,7 @@ Some queries can have required arguments such as the following query where owner
   }
 }
  ```
+
+ ---
+
+
